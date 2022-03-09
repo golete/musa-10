@@ -7,12 +7,10 @@ tags: [dataviz, folium]
 hv-loader:
   hv-chart-1: ["charts/phlEvictionsInt.html", "500"]
   hv-chart-2: ["charts/phlEvictionsTimeline.html", "500"]
-  hv-chart-3: ["charts/phlEvictionsViolations.html", "500"]
-  hv-chart-4: ["charts/phlTop20Vs.html", "500"]
-  hv-chart-5: ["charts/phlViolationType.html", "500"]
+  hv-chart-3: ["charts/phlEvictionsViolations.html", "250"]
+  hv-chart-4: ["charts/phlTop20Vs.html", "250"]
+  hv-chart-5: ["charts/phlViolationType.html", "250"]
 
-toc: true
-toc_sticky: true
 ---
 
 
