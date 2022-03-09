@@ -26,7 +26,7 @@ For examples of how to use markdown to style text, see this [this page](./anothe
 
 ADD static image
 
-![Alt Text]({{ site.url }}{{ site.baseurl }}/assets/img/01.png)
+![Alt Text]({{ site.url }}{{ site.baseurl }}/assets/images/01.png)
 
 
 ## HvPlot Example
