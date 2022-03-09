@@ -3,24 +3,67 @@ title: "Example: Embedding Folium charts"
 date: 2019-04-13
 published: true
 tags: [dataviz, folium]
-excerpt: "Embedding interactive Folium charts on static pages using Jekyll."
-folium-loader:
-  folium-chart-1: ["charts/foliumChart.html", "400"] # second argument is the height
-  folium-chart-2: ["charts/percent_no_internet.html", "400"] # second argument is the height
+
+hv-loader:
+  hv-chart-1: ["charts/phlEvictionsInt.html", "500"]
+  hv-chart-2: ["charts/phlEvictionsTimeline.html", "500"]
+  hv-chart-3: ["charts/phlEvictionsViolations.html", "500"]
+  hv-chart-4: ["charts/phlTop20Vs.html", "500"]
+  hv-chart-5: ["charts/phlViolationType.html", "500"]
+
 toc: true
 toc_sticky: true
 ---
 
-This post will show examples of embedding interactive maps produced using [Folium](https://github.com/python-visualization/folium).
 
-## OSMnx and Street Networks
+# Welcome!
 
-The shortest route between the Art Museum and the Liberty Bell:
+This single-page website demos how to display visualizations created with altair, hvplot, and folium.
 
-<div id="folium-chart-1"></div>
+For examples of how to use markdown to style text, see this [this page](./another-page.html).
 
-## Percentage of Households without Internet
+# Example: Embedding Altair & Hvplot Charts
 
-<div id="folium-chart-2"></div>
+ADD static image
 
-See the [lecture 9B slides](https://musa-550-fall-2021.github.io/slides/lecture-9B.html) and the [lecture 10A slides](https://musa-550-fall-2021.github.io/slides/lecture-10A.html) for the code that produced these plots.
+![Alt Text]({{ site.url }}{{ site.baseurl }}/assets/img/01.png)
+
+
+## HvPlot Example
+
+Lastly, the measles incidence produced using the HvPlot package:
+
+<div id="hv-chart-1"></div>
+
+
+## HvPlot Example
+
+Lastly, the measles incidence produced using the HvPlot package:
+
+<div id="hv-chart-2"></div>
+
+
+## HvPlot Example
+
+Lastly, the measles incidence produced using the HvPlot package:
+
+<div id="hv-chart-3"></div>
+
+
+## HvPlot Example
+
+Lastly, the measles incidence produced using the HvPlot package:
+
+<div id="hv-chart-4"></div>
+
+
+## HvPlot Example
+
+Lastly, the measles incidence produced using the HvPlot package:
+
+<div id="hv-chart-5"></div>
+
+
+## Notes
+
+- See the [lecture 13A slides](https://musa-550-fall-2021.github.io/slideslecture-13A.html) for the code that produced these plots.
